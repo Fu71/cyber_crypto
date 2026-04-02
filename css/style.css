@@ -1,0 +1,27 @@
+body {
+    background-color: #151937;
+    color: aliceblue;
+}
+
+.text_gradient {
+    background: linear-gradient(to left, #ffa7a9, #ff5ea3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*  phu hop voi trinh duyen khac nhau */
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.btn-gradient {
+    background: linear-gradient(to left, #ff5ea3, #ffa7a9);
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.platform__item>div {
+    width: 100%;
+    max-width: none;
+}
